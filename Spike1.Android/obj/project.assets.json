@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v9.0": {
+      "LiteDB/5.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        }
+      },
       "MonkeyCache/1.5.0-beta": {
         "type": "package",
         "dependencies": {
@@ -17,9 +26,10 @@
           "lib/monoandroid90/MonkeyCache.dll": {}
         }
       },
-      "MonkeyCache.FileStore/1.5.0-beta": {
+      "MonkeyCache.LiteDB/1.5.0-beta": {
         "type": "package",
         "dependencies": {
+          "LiteDB": "5.0.8",
           "MonkeyCache": "1.5.0-beta",
           "Newtonsoft.Json": "12.0.3"
         },
@@ -27,10 +37,10 @@
           "Java.Interop"
         ],
         "compile": {
-          "lib/monoandroid90/MonkeyCache.FileStore.dll": {}
+          "lib/monoandroid90/MonkeyCache.LiteDB.dll": {}
         },
         "runtime": {
-          "lib/monoandroid90/MonkeyCache.FileStore.dll": {}
+          "lib/monoandroid90/MonkeyCache.LiteDB.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -828,7 +838,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MonkeyCache.FileStore": "1.5.0-beta",
+          "MonkeyCache.LiteDB": "1.5.0-beta",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141"
         },
@@ -842,6 +852,26 @@
     }
   },
   "libraries": {
+    "LiteDB/5.0.8": {
+      "sha512": "lqwQnweoa3Lko87uo9FzZYf6BFh3AULas5yosG95LPVHIoACtJJ2BjBPQ7d7vUYDQYSV3rUco2+vMilVoBQ3WA==",
+      "type": "package",
+      "path": "litedb/5.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AppVeyorSettings.json",
+        "LICENSE",
+        "icon_64x64.png",
+        "lib/net45/LiteDB.dll",
+        "lib/net45/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.5.0.8.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
     "MonkeyCache/1.5.0-beta": {
       "sha512": "JGkw6tVEmWzIP27/B3XdioGQhn1aOC/PvhSUjAej+nlcln01xEGbhEl9RbeXQk7L/fah8lGlIp4e19C8w60Wkw==",
       "type": "package",
@@ -884,46 +914,46 @@
         "monkeycache.nuspec"
       ]
     },
-    "MonkeyCache.FileStore/1.5.0-beta": {
-      "sha512": "LIPNlHI9WB+JBD1umJu9yhCvwzj3A33VjLz8BOqTM9puHiW0gWdeJVP6D7DISLfBY41AzfCwyJd/XxAGszlHcw==",
+    "MonkeyCache.LiteDB/1.5.0-beta": {
+      "sha512": "yKCzvZPluKJLzo3/z5YdXkjvJxcsRcABL443bn4sMATsVo33KtROy7qICgovzUQk2YubQQYcXqMXiRRYFfOtEg==",
       "type": "package",
-      "path": "monkeycache.filestore/1.5.0-beta",
+      "path": "monkeycache.litedb/1.5.0-beta",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/monoandroid71/MonkeyCache.FileStore.dll",
-        "lib/monoandroid71/MonkeyCache.FileStore.pdb",
-        "lib/monoandroid71/MonkeyCache.FileStore.xml",
-        "lib/monoandroid80/MonkeyCache.FileStore.dll",
-        "lib/monoandroid80/MonkeyCache.FileStore.pdb",
-        "lib/monoandroid80/MonkeyCache.FileStore.xml",
-        "lib/monoandroid81/MonkeyCache.FileStore.dll",
-        "lib/monoandroid81/MonkeyCache.FileStore.pdb",
-        "lib/monoandroid81/MonkeyCache.FileStore.xml",
-        "lib/monoandroid90/MonkeyCache.FileStore.dll",
-        "lib/monoandroid90/MonkeyCache.FileStore.pdb",
-        "lib/monoandroid90/MonkeyCache.FileStore.xml",
-        "lib/netstandard2.0/MonkeyCache.FileStore.dll",
-        "lib/netstandard2.0/MonkeyCache.FileStore.pdb",
-        "lib/netstandard2.0/MonkeyCache.FileStore.xml",
-        "lib/uap10.0.16299/MonkeyCache.FileStore.dll",
-        "lib/uap10.0.16299/MonkeyCache.FileStore.pdb",
-        "lib/uap10.0.16299/MonkeyCache.FileStore.pri",
-        "lib/uap10.0.16299/MonkeyCache.FileStore.xml",
-        "lib/xamarinios10/MonkeyCache.FileStore.dll",
-        "lib/xamarinios10/MonkeyCache.FileStore.pdb",
-        "lib/xamarinios10/MonkeyCache.FileStore.xml",
-        "lib/xamarinmac20/MonkeyCache.FileStore.dll",
-        "lib/xamarinmac20/MonkeyCache.FileStore.pdb",
-        "lib/xamarinmac20/MonkeyCache.FileStore.xml",
-        "lib/xamarintvos10/MonkeyCache.FileStore.dll",
-        "lib/xamarintvos10/MonkeyCache.FileStore.pdb",
-        "lib/xamarintvos10/MonkeyCache.FileStore.xml",
-        "lib/xamarinwatchos10/MonkeyCache.FileStore.dll",
-        "lib/xamarinwatchos10/MonkeyCache.FileStore.pdb",
-        "lib/xamarinwatchos10/MonkeyCache.FileStore.xml",
-        "monkeycache.filestore.1.5.0-beta.nupkg.sha512",
-        "monkeycache.filestore.nuspec"
+        "lib/monoandroid71/MonkeyCache.LiteDB.dll",
+        "lib/monoandroid71/MonkeyCache.LiteDB.pdb",
+        "lib/monoandroid71/MonkeyCache.LiteDB.xml",
+        "lib/monoandroid80/MonkeyCache.LiteDB.dll",
+        "lib/monoandroid80/MonkeyCache.LiteDB.pdb",
+        "lib/monoandroid80/MonkeyCache.LiteDB.xml",
+        "lib/monoandroid81/MonkeyCache.LiteDB.dll",
+        "lib/monoandroid81/MonkeyCache.LiteDB.pdb",
+        "lib/monoandroid81/MonkeyCache.LiteDB.xml",
+        "lib/monoandroid90/MonkeyCache.LiteDB.dll",
+        "lib/monoandroid90/MonkeyCache.LiteDB.pdb",
+        "lib/monoandroid90/MonkeyCache.LiteDB.xml",
+        "lib/netstandard2.0/MonkeyCache.LiteDB.dll",
+        "lib/netstandard2.0/MonkeyCache.LiteDB.pdb",
+        "lib/netstandard2.0/MonkeyCache.LiteDB.xml",
+        "lib/uap10.0.16299/MonkeyCache.LiteDB.dll",
+        "lib/uap10.0.16299/MonkeyCache.LiteDB.pdb",
+        "lib/uap10.0.16299/MonkeyCache.LiteDB.pri",
+        "lib/uap10.0.16299/MonkeyCache.LiteDB.xml",
+        "lib/xamarinios10/MonkeyCache.LiteDB.dll",
+        "lib/xamarinios10/MonkeyCache.LiteDB.pdb",
+        "lib/xamarinios10/MonkeyCache.LiteDB.xml",
+        "lib/xamarinmac20/MonkeyCache.LiteDB.dll",
+        "lib/xamarinmac20/MonkeyCache.LiteDB.pdb",
+        "lib/xamarinmac20/MonkeyCache.LiteDB.xml",
+        "lib/xamarintvos10/MonkeyCache.LiteDB.dll",
+        "lib/xamarintvos10/MonkeyCache.LiteDB.pdb",
+        "lib/xamarintvos10/MonkeyCache.LiteDB.xml",
+        "lib/xamarinwatchos10/MonkeyCache.LiteDB.dll",
+        "lib/xamarinwatchos10/MonkeyCache.LiteDB.pdb",
+        "lib/xamarinwatchos10/MonkeyCache.LiteDB.xml",
+        "monkeycache.litedb.1.5.0-beta.nupkg.sha512",
+        "monkeycache.litedb.nuspec"
       ]
     },
     "Newtonsoft.Json/12.0.3": {
@@ -2080,7 +2110,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v9.0": [
-      "MonkeyCache.FileStore >= 1.5.0-beta",
+      "MonkeyCache.LiteDB >= 1.5.0-beta",
       "Spike1 >= 1.0.0",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.6.0.1141"
@@ -2129,7 +2159,7 @@
     "frameworks": {
       "monoandroid90": {
         "dependencies": {
-          "MonkeyCache.FileStore": {
+          "MonkeyCache.LiteDB": {
             "target": "Package",
             "version": "[1.5.0-beta, )"
           },

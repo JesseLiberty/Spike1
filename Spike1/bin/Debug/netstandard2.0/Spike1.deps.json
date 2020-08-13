@@ -9,13 +9,21 @@
     ".NETStandard,Version=v2.0/": {
       "Spike1/1.0.0": {
         "dependencies": {
-          "MonkeyCache.FileStore": "1.5.0-beta",
+          "MonkeyCache.LiteDB": "1.5.0-beta",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141"
         },
         "runtime": {
           "Spike1.dll": {}
+        }
+      },
+      "LiteDB/5.0.8": {
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "assemblyVersion": "5.0.8.0",
+            "fileVersion": "5.0.8.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -30,13 +38,14 @@
           }
         }
       },
-      "MonkeyCache.FileStore/1.5.0-beta": {
+      "MonkeyCache.LiteDB/1.5.0-beta": {
         "dependencies": {
+          "LiteDB": "5.0.8",
           "MonkeyCache": "1.5.0-beta",
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
-          "lib/netstandard2.0/MonkeyCache.FileStore.dll": {
+          "lib/netstandard2.0/MonkeyCache.LiteDB.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -98,6 +107,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "LiteDB/5.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lqwQnweoa3Lko87uo9FzZYf6BFh3AULas5yosG95LPVHIoACtJJ2BjBPQ7d7vUYDQYSV3rUco2+vMilVoBQ3WA==",
+      "path": "litedb/5.0.8",
+      "hashPath": "litedb.5.0.8.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -112,12 +128,12 @@
       "path": "monkeycache/1.5.0-beta",
       "hashPath": "monkeycache.1.5.0-beta.nupkg.sha512"
     },
-    "MonkeyCache.FileStore/1.5.0-beta": {
+    "MonkeyCache.LiteDB/1.5.0-beta": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LIPNlHI9WB+JBD1umJu9yhCvwzj3A33VjLz8BOqTM9puHiW0gWdeJVP6D7DISLfBY41AzfCwyJd/XxAGszlHcw==",
-      "path": "monkeycache.filestore/1.5.0-beta",
-      "hashPath": "monkeycache.filestore.1.5.0-beta.nupkg.sha512"
+      "sha512": "sha512-yKCzvZPluKJLzo3/z5YdXkjvJxcsRcABL443bn4sMATsVo33KtROy7qICgovzUQk2YubQQYcXqMXiRRYFfOtEg==",
+      "path": "monkeycache.litedb/1.5.0-beta",
+      "hashPath": "monkeycache.litedb.1.5.0-beta.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",

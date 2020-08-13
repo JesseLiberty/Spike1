@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "0sKwrAJ/WuimOuCQ2RmOzXsXPZZRGN0lnP282yKrzItGZikeOSLYNBPDiw8X6Uyocn886FPQIf3eNCm/Kv9rRg==",
+  "dgSpecHash": "SWaEtazh1JL3QYqmJkcZbzj/yuBy9mj1qfpHNOJOPUIVc9CmT/JH4kQ8Ou0/2W7HIN/viv8YjjmKubNqgCxOFg==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Spike1\\Spike1\\Spike1\\Spike1.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SESA560987\\.nuget\\packages\\litedb\\5.0.8\\litedb.5.0.8.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache\\1.5.0-beta\\monkeycache.1.5.0-beta.nupkg.sha512",
-    "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache.filestore\\1.5.0-beta\\monkeycache.filestore.1.5.0-beta.nupkg.sha512",
+    "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache.litedb\\1.5.0-beta\\monkeycache.litedb.1.5.0-beta.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

@@ -43,7 +43,7 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
-            "MonkeyCache.FileStore": {
+            "MonkeyCache.LiteDB": {
               "target": "Package",
               "version": "[1.5.0-beta, )"
             },
@@ -109,7 +109,7 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "MonkeyCache.FileStore": {
+            "MonkeyCache.LiteDB": {
               "target": "Package",
               "version": "[1.5.0-beta, )"
             },

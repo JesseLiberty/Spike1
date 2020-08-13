@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Input;
-using MonkeyCache.FileStore;
+using MonkeyCache.LiteDB;
 using Spike1.Models;
 using Xamarin.Forms;
 
@@ -57,6 +54,8 @@ namespace Spike1.ViewModels
                 Description = Description
             };
 
+            // This will expire in an hour but not be deleted until we call
+            // EmptyAll, EmptyExpired or Empty(key) 
             Barrel.Current.Add("FirstItem",newItem,expireIn:TimeSpan.FromHours(1));
 
 

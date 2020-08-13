@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "flSk5IG6yy34QDjoo9GenDps6+duS9vHD3I3W6qqA+KJ9UphChkXVGw6OnJ29y2I2j33mqLlu8l2eOqcU8agoA==",
+  "dgSpecHash": "5GRutOxfhO/J6XDWqCO7OxQwcr0sqMwltSuOipJ3iGtYRq7IVWPUxSX+83/yQktCoWAP8lRrmJHSELBndiCfJw==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Spike1\\Spike1\\Spike1.Android\\Spike1.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SESA560987\\.nuget\\packages\\litedb\\5.0.8\\litedb.5.0.8.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache\\1.5.0-beta\\monkeycache.1.5.0-beta.nupkg.sha512",
-    "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache.filestore\\1.5.0-beta\\monkeycache.filestore.1.5.0-beta.nupkg.sha512",
+    "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache.litedb\\1.5.0-beta\\monkeycache.litedb.1.5.0-beta.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

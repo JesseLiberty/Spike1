@@ -1,4 +1,4 @@
-﻿using MonkeyCache.FileStore;
+﻿using MonkeyCache.LiteDB;
 using Spike1.Services;
 using Xamarin.Forms;
 
@@ -10,6 +10,7 @@ namespace Spike1
         public App()
         {
             Barrel.ApplicationId = "Spike1";
+            Barrel.EncryptionKey = "EncryptMe";
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();

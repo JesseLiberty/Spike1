@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fvsaRStx4NBQWNxcKQm5xw89N7VsOKLniPd7CFle3jyY+Aoorfo6ny1S5BBQ7kIy4+nXoZXQc9BOzrvyO3MQ0Q==",
+  "dgSpecHash": "J3nYvGkf71I+dChKvnS2JjBukv3IFcdTwZEURMlxNjKHjlOIhj+5QgYZBh/Oi4uob93Mh4rhEEbDU64kDNELaA==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Spike1\\Spike1\\Spike1.iOS\\Spike1.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\SESA560987\\.nuget\\packages\\litedb\\5.0.8\\litedb.5.0.8.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache\\1.5.0-beta\\monkeycache.1.5.0-beta.nupkg.sha512",
-    "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache.filestore\\1.5.0-beta\\monkeycache.filestore.1.5.0-beta.nupkg.sha512",
+    "C:\\Users\\SESA560987\\.nuget\\packages\\monkeycache.litedb\\1.5.0-beta\\monkeycache.litedb.1.5.0-beta.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\SESA560987\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"

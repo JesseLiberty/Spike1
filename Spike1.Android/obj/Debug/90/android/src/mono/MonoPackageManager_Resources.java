@@ -4,8 +4,9 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "Spike1.Android.dll" comes first in this list. */
 		"Spike1.Android.dll",
 		"FormsViewGroup.dll",
+		"LiteDB.dll",
 		"MonkeyCache.dll",
-		"MonkeyCache.FileStore.dll",
+		"MonkeyCache.LiteDB.dll",
 		"Newtonsoft.Json.dll",
 		"Spike1.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
