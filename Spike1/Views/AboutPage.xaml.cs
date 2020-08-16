@@ -11,5 +11,8 @@ namespace Spike1.Views
         {
             InitializeComponent();
         }
+
+        
+        
     }
 }

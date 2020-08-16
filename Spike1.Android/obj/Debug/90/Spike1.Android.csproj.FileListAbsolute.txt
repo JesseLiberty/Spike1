@@ -49,7 +49,10 @@ C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\resolvedassemblies.hash
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\FormsViewGroup.dll
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\FormsViewGroup.pdb
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\Java.Interop.dll
+C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\LiteDB.dll
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\MonkeyCache.dll
+C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\MonkeyCache.LiteDB.dll
+C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\MonkeyCache.LiteDB.pdb
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\MonkeyCache.pdb
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\Mono.Android.dll
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\Mono.Android.pdb
@@ -469,6 +472,3 @@ C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\stamp\_ConvertResourcesCases
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\LiteDB.dll
-C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\MonkeyCache.LiteDB.dll
-C:\GitHub\Spike1\Spike1\Spike1.Android\obj\Debug\90\android\assets\MonkeyCache.LiteDB.pdb

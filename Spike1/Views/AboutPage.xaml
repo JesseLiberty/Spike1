@@ -15,7 +15,21 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <StackLayout>
-        <Label Text="{Binding FromCache.Text}" BackgroundColor="Black" TextColor="White"/>
+        <StackLayout Orientation="Horizontal">
+        <Label 
+            Text="{Binding FromCache.Text}" 
+            BackgroundColor="Black" 
+            TextColor="White"
+            FontSize="20"
+            FontAttributes="Bold"/>
+            
+            <Label 
+            Text="{Binding FromCache.Description}" 
+            BackgroundColor="Black" 
+            TextColor="White"
+            FontSize="20"
+            FontAttributes="Bold"/>
+        </StackLayout>
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
@@ -46,6 +60,8 @@
                         Command="{Binding OpenWebCommand}"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />
+                    <Button Text="Update from Cache"
+                            Command="{Binding UpdateFromCacheCommand}" />
                 </StackLayout>
             </ScrollView>
         </Grid>
